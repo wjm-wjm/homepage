@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jiangming Wang | Tencent Youtu Lab</title>
+  <meta name="description" content="Personal homepage of Jiangming Wang, researcher at Tencent Youtu Lab. Computer vision, multimodal LLMs, image forensics, deepfake & AIGC detection." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ================== NAVIGATION ================== -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">JW</a>
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ================== HERO ================== -->
+  <header id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="avatar">
+        <div class="avatar-ring"></div>
+        <div class="avatar-inner">JW</div>
+      </div>
+      <h1 class="hero-name">Jiangming Wang</h1>
+      <p class="hero-title">Computer Vision Researcher · Tencent Youtu Lab</p>
+      <p class="hero-tagline">
+        Multimodal LLMs · Image Forensics · Deepfake &amp; AIGC Detection
+      </p>
+      <div class="hero-links">
+        <a href="mailto:51215901073@stu.ecnu.edu.cn" class="btn btn-primary">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="https://github.com/wjm-wjm/" target="_blank" rel="noopener" class="btn btn-outline">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://scholar.google.com/" target="_blank" rel="noopener" class="btn btn-outline">
+          <i class="fas fa-graduation-cap"></i> Scholar
+        </a>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <a href="#about"><i class="fas fa-chevron-down"></i></a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================== ABOUT ================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title"><span>01.</span> About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Hello! I am <strong>Jiangming Wang</strong>, a researcher at
+              <a href="https://open.youtu.qq.com/" target="_blank" rel="noopener">Tencent Youtu Lab</a>,
+              where I work on computer vision and machine learning.
+            </p>
+            <p>
+              My research interests include
+              <span class="highlight">multimodal large language models</span>,
+              <span class="highlight">image forensics</span>,
+              <span class="highlight">deepfake detection</span>, and
+              <span class="highlight">AIGC detection</span>.
+              I am especially passionate about building trustworthy and generalizable
+              vision systems that can robustly tell what is <em>real</em> from what is
+              <em>generated</em>.
+            </p>
+            <p>
+              Before joining Tencent, I received my M.E. in Computer Science from
+              <strong>East China Normal University</strong> (2024), and my B.E. in
+              Mathematics and Applied Mathematics from
+              <strong>Zhejiang University of Technology</strong> (2021), where I was
+              ranked <strong>1/54</strong> and graduated as an
+              <em>Outstanding Graduate of Zhejiang Province</em>.
+            </p>
+          </div>
+          <div class="about-info">
+            <div class="info-card">
+              <h3><i class="fas fa-briefcase"></i> Affiliation</h3>
+              <p>Tencent Youtu Lab</p>
+              <span class="meta">Shanghai, China</span>
+            </div>
+            <div class="info-card">
+              <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+              <p>M.E., East China Normal University</p>
+              <span class="meta">B.E., Zhejiang University of Technology</span>
+            </div>
+            <div class="info-card">
+              <h3><i class="fas fa-flask"></i> Focus</h3>
+              <p>MLLM · Forensics · Deepfake / AIGC Detection</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== RESEARCH INTERESTS ================== -->
+    <section id="research" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title"><span>02.</span> Research Interests</h2>
+        <div class="interests-grid">
+          <div class="interest-card">
+            <div class="interest-icon"><i class="fas fa-brain"></i></div>
+            <h3>Multimodal LLMs</h3>
+            <p>Vision–language understanding, reasoning, and alignment for next-generation foundation models.</p>
+          </div>
+          <div class="interest-card">
+            <div class="interest-icon"><i class="fas fa-fingerprint"></i></div>
+            <h3>Image Forensics</h3>
+            <p>Detecting tampering, manipulation, and provenance of visual content in the wild.</p>
+          </div>
+          <div class="interest-card">
+            <div class="interest-icon"><i class="fas fa-user-secret"></i></div>
+            <h3>Deepfake Detection</h3>
+            <p>Generalizable face forgery detection across unseen manipulations and domains.</p>
+          </div>
+          <div class="interest-card">
+            <div class="interest-icon"><i class="fas fa-robot"></i></div>
+            <h3>AIGC Detection</h3>
+            <p>Identifying AI-generated images from diffusion models, GANs, and beyond.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== PUBLICATIONS ================== -->
+    <section id="publications" class="section">
+      <div class="container">
+        <h2 class="section-title"><span>03.</span> Selected Publications</h2>
+        <p class="section-note">* denotes equal contribution.</p>
+        <ul class="pub-list">
+          <li class="pub-item">
+            <div class="pub-venue">ICML 2026</div>
+            <div class="pub-content">
+              <h3 class="pub-title">Breaking Manifold Continuity: Vector Quantized Modeling for Real-Centric Deepfake Detection</h3>
+              <p class="pub-authors">Changshuo Wang*, <strong>Jiangming Wang*</strong>, et al.</p>
+              <p class="pub-meta">International Conference on Machine Learning (ICML), 2026.</p>
+            </div>
+          </li>
+          <li class="pub-item">
+            <div class="pub-venue">CVPR 2026</div>
+            <div class="pub-content">
+              <h3 class="pub-title">Beyond [CLS] Token: Query-Driven Token-Level Forgery Purification for Generalizable Deepfake Detection</h3>
+              <p class="pub-authors">Changshuo Wang*, <strong>Jiangming Wang*</strong>, et al.</p>
+              <p class="pub-meta">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.</p>
+            </div>
+          </li>
+          <li class="pub-item highlight-pub">
+            <div class="pub-venue">ICML 2025 <span class="badge">Oral</span></div>
+            <div class="pub-content">
+              <h3 class="pub-title">Orthogonal Subspace Decomposition for Generalizable AI-Generated Image Detection</h3>
+              <p class="pub-authors">Zhiyuan Yan*, <strong>Jiangming Wang*</strong>, Peng Jin, et al.</p>
+              <p class="pub-meta">International Conference on Machine Learning (ICML), 2025.</p>
+            </div>
+          </li>
+          <li class="pub-item">
+            <div class="pub-venue">ECCV 2022</div>
+            <div class="pub-content">
+              <h3 class="pub-title">Optimal Transport for Label-Efficient Visible-Infrared Person Re-Identification</h3>
+              <p class="pub-authors"><strong>Jiangming Wang</strong>, Zhizhong Zhang, Mingang Chen, et al.</p>
+              <p class="pub-meta">European Conference on Computer Vision (ECCV), 2022.</p>
+            </div>
+          </li>
+          <li class="pub-item">
+            <div class="pub-venue">TITS 2022</div>
+            <div class="pub-content">
+              <h3 class="pub-title">Cross-Modal 360 Depth Completion and Reconstruction for Large-Scale Indoor Environment</h3>
+              <p class="pub-authors">Ruyu Liu, Guodao Zhang, <strong>Jiangming Wang</strong>, et al.</p>
+              <p class="pub-meta">IEEE Transactions on Intelligent Transportation Systems (TITS), 2022.</p>
+            </div>
+          </li>
+          <li class="pub-item">
+            <div class="pub-venue">arXiv 2024</div>
+            <div class="pub-content">
+              <h3 class="pub-title">Mutual Information Guided Optimal Transport for Unsupervised Visible-Infrared Person Re-Identification</h3>
+              <p class="pub-authors">Zhizhong Zhang*, <strong>Jiangming Wang*</strong>, Xin Tan, et al.</p>
+              <p class="pub-meta">arXiv preprint, 2024.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================== EXPERIENCE ================== -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title"><span>04.</span> Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2024.7 – Present</span>
+              <h3>Computer Vision Researcher</h3>
+              <p class="timeline-org">Tencent Youtu Lab · Shanghai, China</p>
+              <p>Working on multimodal large language models, image forensics, and the detection of deepfake and AI-generated content.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2023.2 – 2023.9</span>
+              <h3>Computer Vision Intern</h3>
+              <p class="timeline-org">Xiaohongshu Inc. · Multimodal Algorithm Group · Shanghai, China</p>
+              <p>Researched multimodal algorithms for industrial-scale visual understanding scenarios.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2021.9 – 2024.6</span>
+              <h3>M.E. in Computer Science</h3>
+              <p class="timeline-org">East China Normal University · Shanghai, China</p>
+              <p>GPA: 3.8 / 4.0.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2017.9 – 2021.6</span>
+              <h3>B.E. in Mathematics and Applied Mathematics</h3>
+              <p class="timeline-org">Zhejiang University of Technology · Hangzhou, China</p>
+              <p>GPA: 4.56 / 5.0 (Rank 1/54). Outstanding Graduate of Zhejiang Province.</p>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="sub-title">Competitions</h3>
+        <ul class="comp-list">
+          <li>
+            <strong>ICCV 2025 Workshop</strong> — Unified Physical-Digital Attacks Detection.
+            <em>Rank: 1st place</em>. Tackling both physical (paper, masks, 3D head models)
+            and digital (identity manipulation, generation, adversarial) face attacks.
+          </li>
+          <li>
+            <strong>ECCV 2022 Workshop</strong> — Out-of-Distribution Generalization in CV.
+            <em>Rank: 11th (individual)</em>. Robustness under pose, shape, texture,
+            context, weather, and occlusion shifts.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================== AWARDS ================== -->
+    <section id="awards" class="section">
+      <div class="container">
+        <h2 class="section-title"><span>05.</span> Honors &amp; Awards</h2>
+        <div class="awards-grid">
+          <div class="award-card">
+            <i class="fas fa-trophy"></i>
+            <h3>Kuanrui New Pioneer Award</h3>
+            <p>ECNU Enterprise Scholarship · 2022</p>
+          </div>
+          <div class="award-card">
+            <i class="fas fa-medal"></i>
+            <h3>Second Prize</h3>
+            <p>"Huawei Cup" Graduate Mathematical Contest in Modeling · 2021</p>
+          </div>
+          <div class="award-card">
+            <i class="fas fa-medal"></i>
+            <h3>Second Prize</h3>
+            <p>China Undergraduate Mathematical Contest in Modeling · 2019</p>
+          </div>
+          <div class="award-card">
+            <i class="fas fa-award"></i>
+            <h3>Honorable Mention</h3>
+            <p>The Mathematics Contest in Modeling (MCM/ICM) · 2019</p>
+          </div>
+          <div class="award-card">
+            <i class="fas fa-star"></i>
+            <h3>Zhejiang Provincial Government Scholarship</h3>
+            <p>2019</p>
+          </div>
+          <div class="award-card">
+            <i class="fas fa-star"></i>
+            <h3>Outstanding Graduate of Zhejiang</h3>
+            <p>Highest Undergraduate Honor · 2021</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== CONTACT ================== -->
+    <section id="contact" class="section section-alt">
+      <div class="container contact-container">
+        <h2 class="section-title centered"><span>06.</span> Get in Touch</h2>
+        <p class="contact-lead">
+          I am always open to discussions on research, collaborations, and opportunities.
+          Feel free to reach out!
+        </p>
+        <div class="contact-links">
+          <a href="mailto:51215901073@stu.ecnu.edu.cn" class="contact-link">
+            <i class="fas fa-envelope"></i>
+            <span>51215901073@stu.ecnu.edu.cn</span>
+          </a>
+          <a href="https://github.com/wjm-wjm/" target="_blank" rel="noopener" class="contact-link">
+            <i class="fab fa-github"></i>
+            <span>github.com/wjm-wjm</span>
+          </a>
+          <a href="tel:+8613819106087" class="contact-link">
+            <i class="fas fa-phone"></i>
+            <span>(+86) 138-1910-6087</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================== FOOTER ================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>© <span id="year"></span> Jiangming Wang. Built with ♥ &amp; pure HTML/CSS.</p>
+      <p class="footer-meta">Last updated: 2026</p>
+    </div>
+  </footer>
+
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Theme toggle
+    const toggle = document.getElementById('themeToggle');
+    const root = document.documentElement;
+    const saved = localStorage.getItem('theme');
+    if (saved === 'dark') root.classList.add('dark');
+    const updateIcon = () => {
+      toggle.innerHTML = root.classList.contains('dark')
+        ? '<i class="fas fa-sun"></i>'
+        : '<i class="fas fa-moon"></i>';
+    };
+    updateIcon();
+    toggle.addEventListener('click', () => {
+      root.classList.toggle('dark');
+      localStorage.setItem('theme', root.classList.contains('dark') ? 'dark' : 'light');
+      updateIcon();
+    });
+
+    // Smooth scroll active link
+    const links = document.querySelectorAll('.nav-menu a');
+    const sections = [...document.querySelectorAll('main section')];
+    const onScroll = () => {
+      const y = window.scrollY + 120;
+      let current = sections[0]?.id;
+      sections.forEach(s => { if (s.offsetTop <= y) current = s.id; });
+      links.forEach(l => l.classList.toggle('active', l.getAttribute('href') === '#' + current));
+    };
+    window.addEventListener('scroll', onScroll);
+    onScroll();
+  </script>
+</body>
+</html>
